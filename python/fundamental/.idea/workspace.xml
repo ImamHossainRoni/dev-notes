@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc06f866-fd60-4022-93b2-2e6fdd6d7ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_shelve_module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +17,37 @@
     <SUITE FILE_PATH="coverage/basicPython$random_number.coverage" NAME="random_number Coverage Results" MODIFIED="1546267943979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$python_file.coverage" NAME="python file Coverage Results" MODIFIED="1547307198607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$getlocationfrom_ip.coverage" NAME="getlocationfrom_ip Coverage Results" MODIFIED="1546364250224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$file_shelve_module.coverage" NAME="file_shelve_module Coverage Results" MODIFIED="1547397156823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$variable_scope.coverage" NAME="variable scope Coverage Results" MODIFIED="1546364381654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state>
+              <caret selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/file_shelve_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getlocationfrom_ip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,13 +73,15 @@
         <option value="$PROJECT_DIR$/guessAnumber.py" />
         <option value="$PROJECT_DIR$/list_concatenation.py" />
         <option value="$PROJECT_DIR$/python file.py" />
+        <option value="$PROJECT_DIR$/file_shelve_module.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="width" value="1366" />
-    <option name="height" value="723" />
+    <option name="x" value="1843" />
+    <option name="y" value="154" />
+    <option name="width" value="1356" />
+    <option name="height" value="542" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,8 +123,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python file">
-    <configuration name="getlocationfrom_ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.file_shelve_module">
+    <configuration name="file_shelve_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +137,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getlocationfrom_ip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_shelve_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_shelve_module" />
         <item itemvalue="Python.python file" />
         <item itemvalue="Python.list_concatenation" />
         <item itemvalue="Python.guessAnumber" />
         <item itemvalue="Python.variable scope" />
-        <item itemvalue="Python.getlocationfrom_ip" />
       </list>
     </recent_temporary>
   </component>
@@ -236,18 +260,19 @@
       <workItem from="1546620948182" duration="230000" />
       <workItem from="1547210751181" duration="177000" />
       <workItem from="1547212310575" duration="2050000" />
-      <workItem from="1547297930699" duration="2648000" />
+      <workItem from="1547297930699" duration="2722000" />
+      <workItem from="1547393848272" duration="1195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8408000" />
+    <option name="totallyTimeSpent" value="9677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1366" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20530303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,8 +286,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31428573" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31345826" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3270869" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,8 +339,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state>
+          <caret selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_shelve_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
