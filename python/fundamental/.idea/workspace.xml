@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc06f866-fd60-4022-93b2-2e6fdd6d7ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reduce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_defined_module/Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_defined_module/my_cal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,16 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/basicPython$guessAnumber.coverage" NAME="guessAnumber Coverage Results" MODIFIED="1546443912397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/basicPython$list_concatenation.coverage" NAME="list_concatenation Coverage Results" MODIFIED="1547210930663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$reduce.coverage" NAME="reduce Coverage Results" MODIFIED="1548867222564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$random_number.coverage" NAME="random_number Coverage Results" MODIFIED="1546267943979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$getlocationfrom_ip.coverage" NAME="getlocationfrom_ip Coverage Results" MODIFIED="1546364250224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$file_shelve_module.coverage" NAME="file_shelve_module Coverage Results" MODIFIED="1547925509309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$guessAnumber.coverage" NAME="guessAnumber Coverage Results" MODIFIED="1546443912397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$list_concatenation.coverage" NAME="list_concatenation Coverage Results" MODIFIED="1547210930663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$my_cal.coverage" NAME="my_cal Coverage Results" MODIFIED="1548871844787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_defined_module" />
     <SUITE FILE_PATH="coverage/basicPython$filter.coverage" NAME="filter Coverage Results" MODIFIED="1548611908759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$python_file.coverage" NAME="python file Coverage Results" MODIFIED="1547307198607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$namta.coverage" NAME="namta Coverage Results" MODIFIED="1548135657209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/basicPython$getlocationfrom_ip.coverage" NAME="getlocationfrom_ip Coverage Results" MODIFIED="1546364250224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$Lambda.coverage" NAME="Lambda Coverage Results" MODIFIED="1548609238299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/basicPython$file_shelve_module.coverage" NAME="file_shelve_module Coverage Results" MODIFIED="1547925509309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$variable_scope.coverage" NAME="variable scope Coverage Results" MODIFIED="1546364381654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$map.coverage" NAME="map Coverage Results" MODIFIED="1548863479202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -72,8 +74,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reduce.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_defined_module/Calculator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user_defined_module/my_cal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
@@ -108,6 +128,8 @@
         <option value="$PROJECT_DIR$/filter.py" />
         <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/reduce.py" />
+        <option value="$PROJECT_DIR$/user_defined_module/Calculator.py" />
+        <option value="$PROJECT_DIR$/user_defined_module/my_cal.py" />
       </list>
     </option>
   </component>
@@ -133,6 +155,11 @@
               <item name="basicPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="basicPython" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basicPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicPython" type="462c0819:PsiDirectoryNode" />
+              <item name="user_defined_module" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reduce">
+  <component name="RunManager" selected="Python.my_cal">
     <configuration name="Lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="namta" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="my_cal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,12 +259,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_defined_module" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/namta.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_defined_module/my_cal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_cal" />
         <item itemvalue="Python.reduce" />
         <item itemvalue="Python.map" />
         <item itemvalue="Python.filter" />
         <item itemvalue="Python.Lambda" />
-        <item itemvalue="Python.namta" />
       </list>
     </recent_temporary>
   </component>
@@ -303,12 +330,12 @@
       <workItem from="1548135631076" duration="26000" />
       <workItem from="1548607077908" duration="3674000" />
       <workItem from="1548689495191" duration="1071000" />
-      <workItem from="1548862987518" duration="1461000" />
+      <workItem from="1548862987518" duration="2546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16991000" />
+    <option name="totallyTimeSpent" value="18076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="27" width="1319" height="741" extended-state="6" />
@@ -328,7 +355,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3272727" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32561985" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32561985" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,6 +460,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_defined_module/Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_defined_module/my_cal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
