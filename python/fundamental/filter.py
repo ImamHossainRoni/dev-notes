@@ -7,4 +7,4 @@ print(evens)
 
 #Used Lambda instead of using function
 odds = list(filter(lambda n:n%2==1,nums))
-print(odds)
+print(odds) 
