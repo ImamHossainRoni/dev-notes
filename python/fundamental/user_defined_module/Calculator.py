@@ -12,3 +12,4 @@ def div(a,b):
         return b/a
 def mod(a,b):
     return a%b
+print(__name__)
