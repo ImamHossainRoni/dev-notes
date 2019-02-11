@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc06f866-fd60-4022-93b2-2e6fdd6d7ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/innerClass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,18 +35,10 @@
     <SUITE FILE_PATH="coverage/basicPython$IO.coverage" NAME="IO Coverage Results" MODIFIED="1549735131638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP/I" />
     <SUITE FILE_PATH="coverage/basicPython$variable_scope.coverage" NAME="variable scope Coverage Results" MODIFIED="1546364381654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/basicPython$map.coverage" NAME="map Coverage Results" MODIFIED="1548863479202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/basicPython$innerClass.coverage" NAME="innerClass Coverage Results" MODIFIED="1549897478695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OOP" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_defined_module/Module.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OOP/class.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OOP/methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="294">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP/innerClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -168,6 +169,7 @@
         <option value="$PROJECT_DIR$/OOP/I/IO.py" />
         <option value="$PROJECT_DIR$/OOP/variable.py" />
         <option value="$PROJECT_DIR$/OOP/methods.py" />
+        <option value="$PROJECT_DIR$/OOP/innerClass.py" />
       </list>
     </option>
   </component>
@@ -227,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.methods">
+  <component name="RunManager" selected="Python.innerClass">
     <configuration name="IO" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="innerClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="basicPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,7 +265,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/calculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP/innerClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.innerClass" />
         <item itemvalue="Python.methods" />
         <item itemvalue="Python.variable" />
         <item itemvalue="Python.IO" />
         <item itemvalue="Python.self" />
-        <item itemvalue="Python.calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -379,12 +381,12 @@
       <workItem from="1549554415497" duration="6605000" />
       <workItem from="1549724708916" duration="593000" />
       <workItem from="1549728977392" duration="5239000" />
-      <workItem from="1549895435260" duration="620000" />
+      <workItem from="1549895435260" duration="1995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39736000" />
+    <option name="totallyTimeSpent" value="41111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1413" y="0" width="1319" height="768" extended-state="6" />
@@ -594,8 +596,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP/methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="294">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/innerClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
