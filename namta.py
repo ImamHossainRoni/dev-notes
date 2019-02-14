@@ -3,6 +3,6 @@ def namta(n):
     for i in range(1,11):
         result = i*n
         print(n,"X",i ,"=",n*i)
-n=input("Enter any number: ")
-n=int(n)
-namta(n)
+# n=input("Enter any number: ")
+
+namta(5)
