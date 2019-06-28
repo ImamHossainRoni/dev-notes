@@ -8,5 +8,5 @@ def main():
     fun1()
     fun2()
     print("from main function",__name__)
-
-main()
+if __name__ == '__main__':
+    main()

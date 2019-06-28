@@ -13,7 +13,7 @@ class Person:
             return False
 c1 = Person()
 c2 = Person()
-c1.update()
+# c1.update()
 if c1.compare(c2):
     print("They are same")
 else:
