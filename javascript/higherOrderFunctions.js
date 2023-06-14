@@ -51,3 +51,21 @@ const sum = myNumbers.reduce(function(previousValue, currentValue){
 
 console.log(sum);
 
+/* Custom higher oder function */
+
+
+let programmingLanguages = ['JavaScript', 'Python', 'Go', 'Rust', 'C'];
+
+function customMap(arr, fn){
+   const newArray = [];
+   for(let i=0; i< arr.length; i++){
+       newArray.push(fn(arr[i]));
+   }
+   return newArray;
+}
+
+const myArray = customMap(programmingLanguages, function (language){
+    return language.length;
+});
+
+console.log(myArray);
