@@ -1,4 +1,4 @@
-# 📝Dev Notes 
+# 📚Dev Notes 
 
 Welcome to my "Dev Notes" repository! This repository is a collection of learning materials, research and development (R&D) resources, code snippets, and custom library functions for various technologies and topics. Whether you're a software engineer, developer, or tech enthusiast, you'll find valuable resources to enhance your knowledge.
 
