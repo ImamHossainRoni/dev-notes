@@ -1,0 +1,37 @@
+trigger:
+- main
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.x'
+      addToPath: true
+      architecture: 'x64'
+
+  - task: DownloadSecureFile@1
+    displayName: 'Download SSH Key'
+    inputs:
+      secureFile: ubuntu-vm.pem'
+
+  - script: |
+      echo 'The PEM file has been downloaded to $(Agent.TempDirectory)'
+      chmod 600 $(Agent.TempDirectory)/ubuntu-vm.pem
+    displayName: 'Prepare SSH Key'
+
+  - script: |
+      ssh -i $(Agent.TempDirectory)/ubuntu-vm.pem -o StrictHostKeyChecking=no root@20.30.40.50 "cd /home/root/backend/fastcraft && git checkout main && git pull && exit"
+      displayName: 'Update from Git'
+      - script: |
+          ssh -i $(Agent.TempDirectory)/ubuntu-vm.pem -o StrictHostKeyChecking=no root@20.30.40.50 "cd /home/root/backend/fastcraft && source venv/bin/activate && pip install -r requirements.txt  && exit"
+    displayName: 'Install Requirements'
+
+  - script: |
+         # Install the 'luminous' package from the azure repos
+      ssh -i $(Agent.TempDirectory)/ubuntu-vm.pem -o StrictHostKeyChecking=no root@20.30.40.50 "cd /home/root/backend/fastcraft && source venv/bin/activate && pip uninstall -y luminous && pip install --no-cache-dir git+https://$(AZURE_DEVOPS_USERNAME):$(AZURE_DEVOPS_PAT)@dev.roni.com/Software-Porjects/Security%20Research/_git/luminous@main#egg=luminous"
+    displayName: 'Install luminous package'
+
+  - script: |
+      ssh -i $(Agent.TempDirectory)/ubuntu-vm.pem -o StrictHostKeyChecking=no root@20.30.40.50 "cd /home/root/backend/fastcraft && sudo systemctl restart backend && exit"
+    displayName: 'Deploy 🤘'
