@@ -19,6 +19,7 @@ This repository serves as my personal knowledge hub, where I organize and share 
 - Programming Languages (Python, JavaScript, TypeScript)
 - Design Patterns and Principles
 - Docker
+- Kubernetes
 - Elasticsearch
 - Gunicorn
 - Nginx
@@ -34,6 +35,7 @@ Here's a glimpse of some key topics covered in this repository:
 - 🐍 Python Development
 - 🌐 Web Development
 - 🐳 Docker Containers
+- ☸ Kubernetes
 - 📊 Data Analysis
 - 📈 Machine Learning
 - 🚀 Productivity Tips
