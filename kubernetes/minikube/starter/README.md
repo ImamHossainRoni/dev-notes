@@ -1,5 +1,6 @@
 
 ### Play with k8s:
+![k8s, minikube](../../../.extras/k8s/minikube.png)
 
 #### K8s manifest files 
 * mongo-config.yaml
