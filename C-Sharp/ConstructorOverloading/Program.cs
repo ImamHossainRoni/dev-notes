@@ -23,6 +23,6 @@ class Program
         Product product1 = new Product("iPhone 15 Pro Max", 1199);
         Product product2= new Product("iPhone 15 Pro Max");
         Console.WriteLine($"Product Name : {product1.Name} and Price {product1.Price}");
-        Console.WriteLine($"Product Name : {product1.Name}");
+        Console.WriteLine($"Product Name : {product2.Name}");
     }
 }
