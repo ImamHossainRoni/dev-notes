@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorOverloading", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1To1Association", "1To1Association\1To1Association.csproj", "{517355A7-7621-4E56-B88C-DAFF44E24377}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ToMAssociation", "1ToMAssociation\1ToMAssociation.csproj", "{B71357DB-C5C1-4A47-B5D9-5E8CE6EA148C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{517355A7-7621-4E56-B88C-DAFF44E24377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{517355A7-7621-4E56-B88C-DAFF44E24377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{517355A7-7621-4E56-B88C-DAFF44E24377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71357DB-C5C1-4A47-B5D9-5E8CE6EA148C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71357DB-C5C1-4A47-B5D9-5E8CE6EA148C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71357DB-C5C1-4A47-B5D9-5E8CE6EA148C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71357DB-C5C1-4A47-B5D9-5E8CE6EA148C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
