@@ -1,0 +1,21 @@
+# This is a basic .gitignore file for Rust projects.
+# Add patterns that match untracked files you want to ignore.
+
+# Compiled output
+target/
+debug/
+release/
+
+# IDE-specific files
+*.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Testing files
+*.test
+*.bench
+
+# Miscellaneous
+Cargo.lock
