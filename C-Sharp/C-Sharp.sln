@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{D9E227EE-59D7-4F5A-9702-D34BBDF52A2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{44E6AB59-3D06-41A2-8C5B-0E8F87CAC051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{D9E227EE-59D7-4F5A-9702-D34BBDF52A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E227EE-59D7-4F5A-9702-D34BBDF52A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E227EE-59D7-4F5A-9702-D34BBDF52A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E6AB59-3D06-41A2-8C5B-0E8F87CAC051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E6AB59-3D06-41A2-8C5B-0E8F87CAC051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E6AB59-3D06-41A2-8C5B-0E8F87CAC051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E6AB59-3D06-41A2-8C5B-0E8F87CAC051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
