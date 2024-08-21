@@ -145,3 +145,24 @@ let is_active: bool = true;
 let letter: char = 'A';
 let emoji: char = '😊';
 ```
+#### Compound Types :
+Compound types can group multiple values into one type. Rust has two primitive compound types: `tuples` and `arrays`.
+
+##### Tuples:
+A tuple can group together multiple values of different types into a single compound type.
+```rust
+let tuple: (i32, f64, char) = (500, 5.7, 'A');
+let (x, y,z ) = tuple; // Destructuring the tuple 
+println!("Original tuple: {:?}", tuple);
+println!("Destructuring the tuple values : {}, {}, {}", x, y, z);
+
+```
+
+##### Arrays:
+An array is a collection of elements of the same type with a fixed length.
+```rust
+let my_array : [i32; 3] = [1, 2, 4];
+println!("Arrays : {:?}", my_array);
+let slice: &[i32] = &my_array[1..3];
+println!("Array slicing : {:?}", slice);
+```
