@@ -18,4 +18,5 @@ def main():
     print("Results:", results)
     print(f"Total time: {elapsed:.2f} seconds")
 
-main()
+if __name__ == "__main__":
+    main()
